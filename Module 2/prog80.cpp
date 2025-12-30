@@ -3,22 +3,20 @@ using namespace std;
 
 class Test
 {
-    int x;
 public:
-    void set(int a)
+    Test()
     {
-        x = a;
+        cout << "Object created\n";
     }
-    int get()
+    ~Test()
     {
-        return x;
+        cout << "Object destroyed\n";
     }
 };
 
 int main()
 {
-    Test t;
-    t.set(10);
-    cout << t.get() << "\n";
+    Test *t = new Test;
+    delete t;
     return 0;
 }
