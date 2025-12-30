@@ -4,6 +4,7 @@
 | Field | Value |
 | :--- | :--- |
 | **Name** | **MD SHAHZAMAN FAISAL** |
+| **COURSE** | **B.TECH CSE** |
 | **Roll Number** | **36** |
 | **Section/Group** | **A** |
 | **Semester** | **3** |
